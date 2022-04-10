@@ -29,6 +29,7 @@ public class Chapter10 {
 	
 	public static void validIndex(int[] array, int index) {
 		if ( array.length <= index ) {
+//			意図的にエラーを出す
 			throw new IllegalArgumentException(index + "はサイズの範囲外です");	
 		}
 		System.out.println("インデックス" + index + "の要素は" + array[index] + "です");

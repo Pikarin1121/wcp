@@ -7,7 +7,7 @@ public class Chapter08 {
 			number++;
 		}
 		int [] array = { 1, 4, 14, 25};
-//		インデックス番号は0から始まり、要素は4つあるため、インデックス番号は0，1，2，3 → インデックスiが4以下になればよい
+//		インデックス番号は0から始まり、要素は4つあるため、インデックス番号は0，1，2，3 → インデックスiが4(array.length)以下になればよい
 		for (int i = 0; i < array.length; i++) {
 //			配列は要素のデータを出す際、インデックス番号iの時、array[i]で出す
 			System.out.println(array[i]);
